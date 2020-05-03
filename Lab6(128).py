@@ -207,7 +207,7 @@ def start(m):
             print("\nКритерій Фішера:")
             if Fp > Ft:
                 print("\tРівняння регресії неадекватне (Ft < Fp).")
-                break
+                start(m)
             else:
                 print("\tРівняння регресії адекватне (Ft > Fp)!")
                 break
